@@ -22,6 +22,7 @@ body{
 	height: 50px;
 	position: fixed;
 	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); 
+	z-index: 1000;
 }
 .menuButton{
 	height: 45px;
@@ -192,6 +193,7 @@ body{
     margin: 0 10px;
     position: relative;
     top: -4px;
+	z-index: 1;
 }
 .item-desc {
     font-size: 8pt;
