@@ -79,6 +79,7 @@ body{
 }
 .langFlag:hover{
 	opacity: 1;
+	scale: 1.2;
 }
 .currentLang{
 	display: none;
@@ -161,6 +162,7 @@ body{
 }
 .photoPreview:hover{
 	box-shadow:none;
+	scale: 1.10;
 }
 
 #logoBig{
