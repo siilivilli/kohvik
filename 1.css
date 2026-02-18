@@ -90,6 +90,7 @@ body{
 	width:800px;
 	margin: auto;
 	background-image: url(img/header01.png);
+	border-radius: 0px 0px 5px 5px;
 }
 #bodySpacing{
 	height: 50px;
@@ -143,6 +144,14 @@ body{
 	height:82px;
 	width:62px;
 	display:inline-block;
+}
+.iconsFood img {
+	border-radius: 60px;
+	opacity: 0.5;
+}
+.iconsFood img:hover {
+	scale:1.05;
+	opacity: 1;
 }
 .iconsText{
 	font-size: 6pt;
